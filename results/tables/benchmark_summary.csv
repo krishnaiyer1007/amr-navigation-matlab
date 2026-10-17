@@ -1,0 +1,4 @@
+group,runs,successes,successRate,collisionRate,timeouts,stalls,unreachable,timeMean,timeStd,timeMedian,timeWorst,pathLengthMean,pathLengthStd,efficiencyMean,minClearanceMean,minClearanceWorst,trackErrMean,replansMean,replanLatencyWorst,stepTimeMeanMs,planTimeMeanMs,controlEffortMean
+B0,30,15,50,50,0,0,0,22.5033,6.7208,24.85,32.15,14.9878,4.02399,1.01805,0.265347,-0.0306103,0.0314121,0,NaN,0.59182,3.94454,0.197673
+B1,30,16,53.3333,26.6667,0,6,0,23.45,6.7132,25.15,32.15,15.2872,3.81656,1.01725,0.333207,-0.0279208,0.0310738,0,NaN,0.589379,3.63647,0.212822
+P,30,30,100,0,0,0,0,29.9117,11.2005,28.325,59.45,17.8447,7.15301,0.961204,0.398571,0.159748,0.0517311,4.93333,0.05,3.36988,2.6976,0.596503

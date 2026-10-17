@@ -1,0 +1,179 @@
+Saved maps/warehouse01.mat (12 scenarios)
+AMR navigation test report
+Date: 16-Oct-2026 19:09:22
+Version: 25.2.0.3150157 (R2025b) Update 4
+Config hash: 0740544200ce2af7
+Commit: n/a
+
+Running testKinematics
+....    circle closure error: Euler 0.0001 m, midpoint 0.000000 m
+....
+Done testKinematics
+__________
+
+[PASS] testKinematics      2.0s  8/8 sections passed
+Running testAStar
+.........
+Done testAStar
+__________
+
+[PASS] testAStar           0.6s  9/9 sections passed
+Running testCollision
+......
+Done testCollision
+__________
+
+[PASS] testCollision       0.3s  6/6 sections passed
+Running testAvoidance
+.......
+Done testAvoidance
+__________
+
+[PASS] testAvoidance       0.3s  7/7 sections passed
+Running testMapping
+........
+Done testMapping
+__________
+
+[PASS] testMapping         0.5s  8/8 sections passed
+Running testReplanning
+.....
+Done testReplanning
+__________
+
+[PASS] testReplanning      4.2s  5/5 sections passed
+Running testDeterminism
+...
+Done testDeterminism
+__________
+
+[PASS] testDeterminism     1.8s  3/3 sections passed
+
+7 of 7 test files passed.
+Report saved to /Users/kichuiyer/Projects/amr-navigation-matlab/results/logs/test_report_2026-10-16_190922.txt
+[PASS] S01 expected success     got success     minClr 1.000 m
+[PASS] S02 expected success     got success     minClr 0.386 m
+[PASS] S03 expected success     got success     minClr 0.357 m
+[PASS] S04 expected success     got success     minClr 0.407 m
+[PASS] S05 expected success     got success     minClr 0.379 m
+[PASS] S06 expected success     got success     minClr 0.387 m
+[PASS] S07 expected unreachable got unreachable minClr 1.000 m
+[PASS] S08 expected success     got success     minClr 0.199 m
+[PASS] S09 expected success     got success     minClr 0.513 m
+[PASS] S10 expected success     got success     minClr 0.469 m
+[PASS] S11 expected success     got success     minClr 0.356 m
+[PASS] S12 expected success     got success     minClr 0.198 m
+12/12 scenarios passed
+=== Baseline controllers (B0, B1) ===
+S01 B0  success      time=  30.5 s  minClr= 1.000 m
+S02 B0  success      time=  25.2 s  minClr= 0.466 m
+S03 B0  collision    time=   NaN s  minClr=-0.029 m
+S04 B0  collision    time=   NaN s  minClr=-0.016 m
+S05 B0  collision    time=   NaN s  minClr=-0.024 m
+S06 B0  collision    time=   NaN s  minClr=-0.019 m
+S07 B0  collision    time=   NaN s  minClr=-0.006 m
+S08 B0  success      time=  32.4 s  minClr= 0.217 m
+S09 B0  collision    time=   NaN s  minClr=-0.016 m
+S10 B0  success      time=  17.4 s  minClr= 0.482 m
+S11 B0  collision    time=   NaN s  minClr=-0.020 m
+S12 B0  collision    time=   NaN s  minClr=-0.008 m
+S01 B1  success      time=  30.5 s  minClr= 1.000 m
+S02 B1  success      time=  25.2 s  minClr= 0.466 m
+S03 B1  stall        time=   NaN s  minClr= 0.300 m
+S04 B1  success      time=  27.2 s  minClr= 0.220 m
+S05 B1  success      time=  28.0 s  minClr= 0.115 m
+S06 B1  stall        time=   NaN s  minClr= 0.279 m
+S07 B1  stall        time=   NaN s  minClr= 0.292 m
+S08 B1  success      time=  32.4 s  minClr= 0.217 m
+S09 B1  success      time=  27.5 s  minClr= 0.312 m
+S10 B1  success      time=  17.4 s  minClr= 0.482 m
+S11 B1  collision    time=   NaN s  minClr=-0.003 m
+S12 B1  collision    time=   NaN s  minClr=-0.011 m
+
+Group       Runs Success%  Collis%  Tmean(s)   Tmed(s) Tworst(s) MinClr(m)   TrkErr  Replans Step(ms)
+B0            12     33.3     66.7      26.3      27.8      32.4    -0.029    0.030      0.0     0.55
+B1            12     58.3     16.7      26.9      27.5      32.4    -0.011    0.029      0.0     0.56
+=== Full system (P) ===
+S01 success      expected=success     OK    time=  31.3 s  minClr= 1.000 m  replans=0
+S02 success      expected=success     OK    time=  25.5 s  minClr= 0.386 m  replans=0
+S03 success      expected=success     OK    time=  60.2 s  minClr= 0.357 m  replans=13
+S04 success      expected=success     OK    time=  27.5 s  minClr= 0.407 m  replans=4
+S05 success      expected=success     OK    time=  28.6 s  minClr= 0.379 m  replans=5
+S06 success      expected=success     OK    time=  31.6 s  minClr= 0.387 m  replans=6
+S07 unreachable  expected=unreachable OK    time=   NaN s  minClr= 1.000 m  replans=0
+S08 success      expected=success     OK    time=  32.9 s  minClr= 0.199 m  replans=0
+S09 success      expected=success     OK    time=  27.8 s  minClr= 0.513 m  replans=6
+S10 success      expected=success     OK    time=  27.4 s  minClr= 0.469 m  replans=5
+S11 success      expected=success     OK    time=  22.3 s  minClr= 0.356 m  replans=2
+S12 success      expected=success     OK    time=  27.4 s  minClr= 0.198 m  replans=4
+
+Group       Runs Success%  Collis%  Tmean(s)   Tmed(s) Tworst(s) MinClr(m)   TrkErr  Replans Step(ms)
+P             12     91.7      0.0      31.1      27.8      60.2     0.198    0.049      3.8     3.24
+=== Benchmark: 30 variants x 3 controllers ===
+1   S02 seed  101:  B0=success      B1=success      P=success    
+2   S03 seed  102:  B0=collision    B1=stall        P=success    
+3   S04 seed  103:  B0=collision    B1=success      P=success    
+4   S05 seed  104:  B0=collision    B1=collision    P=success    
+5   S06 seed  105:  B0=collision    B1=stall        P=success    
+6   S08 seed  106:  B0=success      B1=success      P=success    
+7   S09 seed  107:  B0=success      B1=success      P=success    
+8   S10 seed  108:  B0=success      B1=success      P=success    
+9   S11 seed  109:  B0=success      B1=collision    P=success    
+10  S12 seed  110:  B0=success      B1=success      P=success    
+11  S02 seed  201:  B0=success      B1=success      P=success    
+12  S03 seed  202:  B0=collision    B1=stall        P=success    
+13  S04 seed  203:  B0=collision    B1=success      P=success    
+14  S05 seed  204:  B0=collision    B1=collision    P=success    
+15  S06 seed  205:  B0=collision    B1=stall        P=success    
+16  S08 seed  206:  B0=success      B1=success      P=success    
+17  S09 seed  207:  B0=collision    B1=collision    P=success    
+18  S10 seed  208:  B0=success      B1=success      P=success    
+19  S11 seed  209:  B0=collision    B1=collision    P=success    
+20  S12 seed  210:  B0=success      B1=success      P=success    
+21  S02 seed  301:  B0=success      B1=success      P=success    
+22  S03 seed  302:  B0=collision    B1=stall        P=success    
+23  S04 seed  303:  B0=collision    B1=success      P=success    
+24  S05 seed  304:  B0=collision    B1=collision    P=success    
+25  S06 seed  305:  B0=collision    B1=stall        P=success    
+26  S08 seed  306:  B0=success      B1=success      P=success    
+27  S09 seed  307:  B0=success      B1=collision    P=success    
+28  S10 seed  308:  B0=success      B1=success      P=success    
+29  S11 seed  309:  B0=success      B1=success      P=success    
+30  S12 seed  310:  B0=collision    B1=collision    P=success    
+
+Group       Runs Success%  Collis%  Tmean(s)   Tmed(s) Tworst(s) MinClr(m)   TrkErr  Replans Step(ms)
+B0            30     50.0     50.0      22.5      24.9      32.1    -0.031    0.031      0.0     0.59
+B1            30     53.3     26.7      23.4      25.2      32.1    -0.028    0.031      0.0     0.59
+P             30    100.0      0.0      29.9      28.3      59.5     0.160    0.052      4.9     3.37
+
+=== Sensitivity sweeps (P) ===
+sensor.rangeNoiseStd   =  0.00 : success 10/10
+sensor.rangeNoiseStd   =  0.02 : success 10/10
+sensor.rangeNoiseStd   =  0.05 : success 9/10
+sensor.rangeNoiseStd   =  0.10 : success 10/10
+obstacleSpeed          =  0.00 : success 10/10
+obstacleSpeed          =  0.30 : success 10/10
+obstacleSpeed          =  0.60 : success 9/10
+obstacleSpeed          =  1.00 : success 10/10
+robot.vMax             =  0.30 : success 10/10
+robot.vMax             =  0.50 : success 10/10
+robot.vMax             =  0.65 : success 10/10
+safety.margin          =  0.10 : success 10/10
+safety.margin          =  0.15 : success 10/10
+safety.margin          =  0.25 : success 10/10
+sensor.missProb        =  0.00 : success 10/10
+sensor.missProb        =  0.05 : success 10/10
+sensor.missProb        =  0.15 : success 10/10
+
+Benchmark finished in 460.2 s. Tables in results/tables.
+Figures written to /Users/kichuiyer/Projects/amr-navigation-matlab/results/figures
+WARNING: package sun.awt.X11 not in java.desktop
+WARNING: package sun.awt.X11 not in java.desktop
+Built /Users/kichuiyer/Projects/amr-navigation-matlab/simulink/amrNavigation.slx
+S01 P  seed 0 | MATLAB success    31.3 s | Simulink success    31.3 s | max dPos 0.00e+00 m, dYaw 0.00e+00 rad, dCmd 0.00e+00 | PASS (Simulink wall 13.8 s)
+S04 P  seed 0 | MATLAB success    27.5 s | Simulink success    27.5 s | max dPos 0.00e+00 m, dYaw 0.00e+00 rad, dCmd 0.00e+00 | PASS (Simulink wall 1.6 s)
+S06 P  seed 0 | MATLAB success    31.6 s | Simulink success    31.6 s | max dPos 0.00e+00 m, dYaw 0.00e+00 rad, dCmd 0.00e+00 | PASS (Simulink wall 4.3 s)
+S05 B1 seed 0 | MATLAB success    28.0 s | Simulink success    28.0 s | max dPos 0.00e+00 m, dYaw 0.00e+00 rad, dCmd 0.00e+00 | PASS (Simulink wall 2.2 s)
+S12 P  seed 3 | MATLAB success    15.7 s | Simulink success    15.7 s | max dPos 0.00e+00 m, dYaw 0.00e+00 rad, dCmd 0.00e+00 | PASS (Simulink wall 2.6 s)
+
+All done. See results/tables, results/figures and results/logs.

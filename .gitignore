@@ -1,0 +1,15 @@
+# MATLAB / Simulink generated files
+*.asv
+*.autosave
+*.slxc
+*.mexmaci64
+*.mexmaca64
+*.mexa64
+*.mexw64
+slprj/
+codegen/
+*_ert_rtw/
+*_grt_rtw/
+.DS_Store
+# large regenerated outputs (keep tables and figures under version control if wanted)
+results/logs/*.mat

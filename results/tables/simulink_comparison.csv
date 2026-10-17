@@ -1,0 +1,6 @@
+scenario,controller,seed,matlabOutcome,simulinkOutcome,maxPosDiff_m,maxYawDiff_rad,maxCmdDiff,pass
+S01,P,0,success,success,0,0,0,1
+S04,P,0,success,success,0,0,0,1
+S06,P,0,success,success,0,0,0,1
+S05,B1,0,success,success,0,0,0,1
+S12,P,3,success,success,0,0,0,1

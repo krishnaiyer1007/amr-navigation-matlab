@@ -1,0 +1,22 @@
+WARNING: package sun.awt.X11 not in java.desktop
+WARNING: package sun.awt.X11 not in java.desktop
+Built /Users/kichuiyer/Projects/amr-navigation-matlab/simulink/amrNavigation.slx
+amrNavigation: S05 (Two crossing obstacles), controller P, seed 0
+Run button (default S05/P): success, 28.6 s, identical to runSimulation
+amrNavigation: S06 (Obstacle suddenly blocks corridor), controller P, seed 0
+Run button with amrScenario = 'S06': success, 31.6 s, replans 6
+S10 refused as expected (robot constants differ): message points to runSimulinkModel
+Built /Users/kichuiyer/Projects/amr-navigation-matlab/simulink/amrNavigation.slx
+amrNavigation: S10 (Higher robot speed), controller P, seed 0
+Built /Users/kichuiyer/Projects/amr-navigation-matlab/simulink/amrNavigation.slx
+runSimulinkModel('S10'): success, 27.4 s (model rebuilt with vMax 1.0, then restored)
+S06 P (Sudden blockage: detection and replanning): success -> /Users/kichuiyer/Projects/amr-navigation-matlab/results/videos/S06_P.mp4
+Video saved to /Users/kichuiyer/Projects/amr-navigation-matlab/results/videos/S06_P.mp4
+S05 P (Two crossing obstacles: prediction and avoidance): success -> /Users/kichuiyer/Projects/amr-navigation-matlab/results/videos/S05_P.mp4
+Video saved to /Users/kichuiyer/Projects/amr-navigation-matlab/results/videos/S05_P.mp4
+S05 B0 (Baseline without avoidance: collision): collision -> /Users/kichuiyer/Projects/amr-navigation-matlab/results/videos/S05_B0.mp4
+Video saved to /Users/kichuiyer/Projects/amr-navigation-matlab/results/videos/S05_B0.mp4
+S11 P (Occluded obstacle emerging from an aisle): success -> /Users/kichuiyer/Projects/amr-navigation-matlab/results/videos/S11_P.mp4
+Video saved to /Users/kichuiyer/Projects/amr-navigation-matlab/results/videos/S11_P.mp4
+S07 P (No feasible route: safe stop): unreachable -> /Users/kichuiyer/Projects/amr-navigation-matlab/results/videos/S07_P.mp4
+Video saved to /Users/kichuiyer/Projects/amr-navigation-matlab/results/videos/S07_P.mp4

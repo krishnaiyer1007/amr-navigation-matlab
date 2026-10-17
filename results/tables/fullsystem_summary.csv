@@ -1,0 +1,2 @@
+group,runs,successes,successRate,collisionRate,timeouts,stalls,unreachable,timeMean,timeStd,timeMedian,timeWorst,pathLengthMean,pathLengthStd,efficiencyMean,minClearanceMean,minClearanceWorst,trackErrMean,replansMean,replanLatencyWorst,stepTimeMeanMs,planTimeMeanMs,controlEffortMean
+P,12,11,91.6667,0,0,0,1,31.1182,10.0901,27.75,60.2,18.1954,6.86738,0.960669,0.470995,0.198004,0.0493749,3.75,0.3,3.24106,12.85,0.516655

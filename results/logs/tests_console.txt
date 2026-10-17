@@ -1,0 +1,52 @@
+AMR navigation test report
+Date: 17-Oct-2026 17:16:35
+Version: 25.2.0.3150157 (R2025b) Update 4
+Config hash: 0740544200ce2af7
+Commit: 6475425
+
+Running testKinematics
+....    circle closure error: Euler 0.0001 m, midpoint 0.000000 m
+....
+Done testKinematics
+__________
+
+[PASS] testKinematics      2.2s  8/8 sections passed
+Running testAStar
+.........
+Done testAStar
+__________
+
+[PASS] testAStar           0.6s  9/9 sections passed
+Running testCollision
+......
+Done testCollision
+__________
+
+[PASS] testCollision       0.3s  6/6 sections passed
+Running testAvoidance
+.......
+Done testAvoidance
+__________
+
+[PASS] testAvoidance       0.3s  7/7 sections passed
+Running testMapping
+........
+Done testMapping
+__________
+
+[PASS] testMapping         0.5s  8/8 sections passed
+Running testReplanning
+.....
+Done testReplanning
+__________
+
+[PASS] testReplanning      4.1s  5/5 sections passed
+Running testDeterminism
+...
+Done testDeterminism
+__________
+
+[PASS] testDeterminism     1.6s  3/3 sections passed
+
+7 of 7 test files passed.
+Report saved to /Users/kichuiyer/Projects/amr-navigation-matlab/results/logs/test_report_2026-10-17_171635.txt
